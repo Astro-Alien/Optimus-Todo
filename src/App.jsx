@@ -31,8 +31,7 @@ export default function App() {
       setTodoValue(valueToEdit);
       handleDeleteTodo(index);
   }
-  //replace with a link to a database cause we want the content to be saved to the database and when the page
-  //loads we want to retrieve the content from the database
+  
   useEffect(() => {
     if (!localStorage) return;
 
