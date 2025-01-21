@@ -16,7 +16,6 @@ const corsOptions = {
 
 app.use(cors(corsOptions))
 
-//setting up api calls we can use this in our server setup for the time catcher applications
 app.use('/', router)
 
 const port = 4000
